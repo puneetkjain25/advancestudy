@@ -8,6 +8,7 @@ public class ThrowExample {
     public static void main(String[] args) {
 
         String name = "puneet";
+        System.out.println("Current thread: "+Thread.currentThread());
 
         try{
 
