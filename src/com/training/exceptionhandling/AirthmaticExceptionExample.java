@@ -23,5 +23,6 @@ public class AirthmaticExceptionExample {
 
         System.out.println("Finishing the program");
         System.out.println("dev 2");
+        System.out.println("dev 3");
     }
 }
