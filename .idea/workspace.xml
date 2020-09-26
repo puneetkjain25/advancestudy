@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="90c0f453-6ec6-44f9-aeef-95ef1944d105" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/training/multithreading/RandomValueUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/training/multithreading/RunnableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/training/multithreading/RunnableDemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/training/multithreading/UserThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/training/multithreading/UserThreadMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/training/multithreading/StaticExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/training/multithreading/StaticExample.java" afterDir="false" />
     </list>
@@ -53,8 +76,12 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="study" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -73,24 +100,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="dynamic.classpath" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager" selected="Application.StaticExampleMain">
+  <component name="RunManager" selected="Application.RunnableDemoMain">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -228,22 +255,6 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="AirthmaticExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.training.exceptionhandling.AirthmaticExceptionExample" />
-      <module name="study" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.training.exceptionhandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CheckedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.training.exceptionhandling.CheckedExample" />
       <module name="study" />
@@ -272,6 +283,20 @@
       </extension>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnableDemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.training.multithreading.RunnableDemoMain" />
+      <module name="study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.training.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -348,19 +373,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AirthmaticExceptionExample" />
       <item itemvalue="Application.CheckedExample" />
       <item itemvalue="Application.RethrowExample" />
+      <item itemvalue="Application.RunnableDemoMain" />
       <item itemvalue="Application.StaticExampleMain" />
       <item itemvalue="Application.ThrowExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunnableDemoMain" />
         <item itemvalue="Application.StaticExampleMain" />
         <item itemvalue="Application.ThrowExample" />
         <item itemvalue="Application.RethrowExample" />
         <item itemvalue="Application.CheckedExample" />
-        <item itemvalue="Application.AirthmaticExceptionExample" />
       </list>
     </recent_temporary>
   </component>
@@ -393,6 +418,18 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="17579000" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USERS">
       <collection />
@@ -401,6 +438,40 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new chanhge&#10;" />
     <option name="LAST_COMMIT_MESSAGE" value="new chanhge&#10;" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1600884083642">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600884083642" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1600884083642">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600884083642" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1600884083641">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600884083641" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1600884083642">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600884083642" />
+    <state x="129" y="55" key="MergeDialog" timestamp="1600876518796">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1600876518796" />
+    <state x="321" y="125" key="MultipleFileMergeDialog" timestamp="1600876732936">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1600876732936" />
+    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1600877576653">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1600877576653" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600878934694">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600878934694" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
