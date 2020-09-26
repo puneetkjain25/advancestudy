@@ -16,9 +16,10 @@ public class IndianPrimeMinister {
         return name;
     }
 
-    public static IndianPrimeMinister getIndianPrimeMinister() {
+    public static synchronized IndianPrimeMinister getIndianPrimeMinister() {
 
         if (indianPrimeMinister == null) {
+              System.out.println();
               indianPrimeMinister = new IndianPrimeMinister();
         }
 
