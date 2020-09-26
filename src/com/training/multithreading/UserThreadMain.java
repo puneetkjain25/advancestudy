@@ -21,6 +21,7 @@ public class UserThreadMain {
         }
 
         System.out.println("End of main method: "+thread.getName());
+
     }
 
 }

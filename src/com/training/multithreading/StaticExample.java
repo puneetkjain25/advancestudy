@@ -6,11 +6,14 @@ package com.training.multithreading;
 public class StaticExample {
 
      public static String name;
+    public static int telephone;
      public String age;
 
      static {
          System.out.println("This is static block");
-         String name1 = "Puneet";
+          name = "Puneet";
+         telephone = 1111;
+
          Thread th = Thread.currentThread();
          System.out.println("Class StaticExample is loaded by "+th.getName()+" thread");
 
